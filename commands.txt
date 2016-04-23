@@ -1,0 +1,5 @@
+from word_generator import WordGenerator
+wg = WordGenerator('wordsEn.txt')
+wg.process_words()
+wg.build_probabilities()
+wg.generate_word()
